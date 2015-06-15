@@ -2,6 +2,7 @@
 How many hours did it take to complete?
 - I was able to complete the basic project in an hour. 
 - Doing the nicer version with all the optional stuff (and a few of my own touches) took 7 hours total. It took me this long as I really wanted to use a spinner (UIPickerView) for selecting the tip, and I ran into a couple of bugs with using UIPickerView that I had to debug by Googling. (This was also my first time with Swift, I've only used Java and C++ before)
+- See TipNSplit.gif in root directory for gif
 
 Which required and optional stories have you completed?
 - I completed all the required stories: I created a tip calculator, that lets you select from a number of tip options
