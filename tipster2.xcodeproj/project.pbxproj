@@ -40,10 +40,10 @@
 		F8AE16D91B1B85B500984CB0 /* tipster2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipster2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8AE16DE1B1B85B500984CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8AE16DF1B1B85B500984CB0 /* tipster2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipster2Tests.swift; sourceTree = "<group>"; };
-		F8AE17191B2EB50900984CB0 /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Bold.ttf"; sourceTree = "<group>"; };
-		F8AE171A1B2EB50900984CB0 /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Light.ttf"; sourceTree = "<group>"; };
-		F8AE171B1B2EB50900984CB0 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
-		F8AE171C1B2EB50900984CB0 /* RobotoSlab-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Thin.ttf"; sourceTree = "<group>"; };
+		F8AE17191B2EB50900984CB0 /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RobotoSlab-Bold.ttf"; path = "../RobotoSlab-Bold.ttf"; sourceTree = "<group>"; };
+		F8AE171A1B2EB50900984CB0 /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RobotoSlab-Light.ttf"; path = "../RobotoSlab-Light.ttf"; sourceTree = "<group>"; };
+		F8AE171B1B2EB50900984CB0 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RobotoSlab-Regular.ttf"; path = "../RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
+		F8AE171C1B2EB50900984CB0 /* RobotoSlab-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RobotoSlab-Thin.ttf"; path = "../RobotoSlab-Thin.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +67,6 @@
 		F8AE16BB1B1B85B500984CB0 = {
 			isa = PBXGroup;
 			children = (
-				F8AE171B1B2EB50900984CB0 /* RobotoSlab-Regular.ttf */,
-				F8AE17191B2EB50900984CB0 /* RobotoSlab-Bold.ttf */,
-				F8AE171A1B2EB50900984CB0 /* RobotoSlab-Light.ttf */,
-				F8AE171C1B2EB50900984CB0 /* RobotoSlab-Thin.ttf */,
 				F8AE16C61B1B85B500984CB0 /* tipster2 */,
 				F8AE16DC1B1B85B500984CB0 /* tipster2Tests */,
 				F8AE16C51B1B85B500984CB0 /* Products */,
@@ -89,6 +85,10 @@
 		F8AE16C61B1B85B500984CB0 /* tipster2 */ = {
 			isa = PBXGroup;
 			children = (
+				F8AE171B1B2EB50900984CB0 /* RobotoSlab-Regular.ttf */,
+				F8AE17191B2EB50900984CB0 /* RobotoSlab-Bold.ttf */,
+				F8AE171A1B2EB50900984CB0 /* RobotoSlab-Light.ttf */,
+				F8AE171C1B2EB50900984CB0 /* RobotoSlab-Thin.ttf */,
 				F8AE16C91B1B85B500984CB0 /* AppDelegate.swift */,
 				F8AE16CB1B1B85B500984CB0 /* ViewController.swift */,
 				F8AE16CD1B1B85B500984CB0 /* Main.storyboard */,
@@ -427,6 +427,7 @@
 				F8AE16E51B1B85B500984CB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8AE16E61B1B85B500984CB0 /* Build configuration list for PBXNativeTarget "tipster2Tests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +436,7 @@
 				F8AE16E81B1B85B500984CB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
