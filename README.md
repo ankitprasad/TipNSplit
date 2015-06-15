@@ -9,7 +9,8 @@ How many hours did it take to complete?
 
 Which required and optional stories have you completed?
 - I completed all the required stories: I created a tip calculator, that lets you select from a number of tip options
+- OPTIONAL: Added the ability to split the bill with up to 6 people
 - OPTIONAL: I used a custom app icon and launch page
 - OPTIONAL: I used/added a custom font
 - OPTIONAL: I used animations by fading items in with UIView.animatewithduration
-- TRULY OPTIONAL: I tried out different input formats including a spinner (UIPickerView) - aside from a segmented control and a text input field. Also added some design touches like a background image.
+- OPTIONAL: I tried out different input formats including a spinner (UIPickerView) - aside from a segmented control and a text input field. Also added some design touches like a background image.
