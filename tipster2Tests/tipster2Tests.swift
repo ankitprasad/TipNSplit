@@ -2,9 +2,6 @@
 //  tipster2Tests.swift
 //  tipster2Tests
 //
-//  Created by Ankit Prasad on 5/31/15.
-//  Copyright (c) 2015 Ankit Prasad. All rights reserved.
-//
 
 import UIKit
 import XCTest

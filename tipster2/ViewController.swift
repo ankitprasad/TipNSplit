@@ -2,14 +2,11 @@
 //  ViewController.swift
 //  tipster2
 //
-//  Created by Ankit Prasad on 5/31/15.
-//  Copyright (c) 2015 Ankit Prasad. All rights reserved.
-//
 
 import UIKit
 
 extension UIView {
-    func fadeIn(duration: NSTimeInterval = 1.0, completion: ((Bool) -> Void) = {(finished: Bool) -> Void in}) {
+    func fade(duration: NSTimeInterval = 0.5, completion: ((Bool) -> Void) = {(finished: Bool) -> Void in}) {
         UIView.animateWithDuration(duration, delay: 0.0, options: UIViewAnimationOptions.CurveEaseIn, animations: {
             self.alpha = 1.0
             }, completion: completion)  }
@@ -135,7 +132,7 @@ class ViewController: UIViewController, UIPickerViewDelegate {
 
     @IBAction func tapTipAmountButton(sender: UIButton) {
         view.endEditing(true)
-        tipPickerView.fadeIn(duration:0.25)
+        tipPickerView.fade(duration:0.25)
         
         //hide bill splitter
         box3View.alpha = 0
@@ -148,16 +145,16 @@ class ViewController: UIViewController, UIPickerViewDelegate {
         tipPickerView.alpha = 0
         
         //show tip percent button
-        tipPercentStaticLabel.fadeIn(duration:0.25)
+        tipPercentStaticLabel.fade(duration:0.25)
         
         // show tip amount and total values
-        box1View.fadeIn(duration:0.25)
-        box2View.fadeIn(duration:0.25)
-        box3View.fadeIn(duration:0.25)
-        billAmountBoxView.fadeIn(duration:0.25)
-        tipPercentBoxView.fadeIn(duration:0.25)
-        numberOfPeopleSegment.fadeIn(duration:0.25)
-        userGroupImage.fadeIn(duration:0.25)
+        box1View.fade(duration:0.25)
+        box2View.fade(duration:0.25)
+        box3View.fade(duration:0.25)
+        billAmountBoxView.fade(duration:0.25)
+        tipPercentBoxView.fade(duration:0.25)
+        numberOfPeopleSegment.fade(duration:0.25)
+        userGroupImage.fade(duration:0.25)
         
         
         // hide billfield
