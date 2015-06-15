@@ -1,6 +1,6 @@
 # TipNSync
 
-- NOTE: As mentioned in your tutorial, I didn't design the storyboard with adaptive layout, so please run simulator in iPhone 5S size.
+- NOTE: As mentioned in your tutorial, I didn't design the storyboard with size classes, so please run simulator in iPhone 5 size.
 
 How many hours did it take to complete?
 - I was able to complete the basic project in an hour. 
